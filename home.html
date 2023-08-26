@@ -19,8 +19,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-      <!--or fixed-top-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand ms-5" href="#">Nataliya Sheludko</a>
         <button
@@ -47,6 +46,7 @@
     </nav>
     <div>
       <h2>👋 Hi I am</h2>
+
       <h1>Nataliya Sheludko</h1>
       <h3>💛💙 Front-end developer, based in Ukraine</h3>
     </div>
@@ -58,12 +58,12 @@
     <div class="container mt-5">
       <div class="row">
         <!--col-6 or col-xs-6-->
-        <div class="col-sm-6 padding-y padding-x bg-color rounded">
+        <div class="display-none col-sm-6 padding-y padding-x bg-color rounded">
           <img
             src="images/weather-project.png"
             width="510px"
-            class="img-fluid shadow rounded"
-            alt="photo weather project website"
+            class="display-none img-fluid shadow rounded"
+            alt="photo-weather-project-website"
           />
         </div>
 
@@ -75,12 +75,10 @@
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
-            <br />
-            <br />
-            <span class="projects-links">
-              <a href="#" class="contact-link">Launch Weather App</a>
-            </span>
           </p>
+          <div class="projects-links">
+            <a href="#" class="contact-link">Launch Weather App</a>
+          </div>
         </div>
       </div>
       <div class="row mt-5">
@@ -91,19 +89,17 @@
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
-            <br />
-            <br />
-            <span class="projects-links">
-              <a href="#" class="contact-link">Launch Peanut App</a>
-            </span>
           </p>
+          <div class="projects-links">
+            <a href="#" class="contact-link">Launch Peanut App</a>
+          </div>
         </div>
-        <div class="col-sm-6 py-5 px-2 bg-color rounded">
+        <div class="display-none col-sm-6 py-5 px-2 bg-color rounded">
           <img
             src="images/peanut-butter-project.png"
             width="560px"
-            class="img-fluid shadow rounded"
-            alt="photo peanut-butter project website"
+            class="display-none img-fluid shadow rounded"
+            alt="photo-peanut-butter-project-website"
           />
         </div>
       </div>
